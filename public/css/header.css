@@ -1,0 +1,60 @@
+.home header {
+    background-color: #eac926;
+    margin: 0;
+}
+.home header img {
+    width: 220px;
+    padding: 25px 0 10px 35px;
+}
+.home header input {
+    margin-left: 25px;
+    width: 50%;
+}
+.home header i {
+    background-color: #ebebeb;
+    margin-left: 25px;
+    margin-top: 5px;
+    padding: 2px;
+} 
+.home nav li,a {
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+.home header p {
+    text-align: center;
+    margin: 10px;
+}
+.home header div i,.home header div p{
+    display: contents;
+    margin-right: 5px;
+    background-color: transparent;
+}
+.home div {
+    text-align: center;
+}
+
+.home header nav {
+    padding: 10px 0;
+}
+.home header nav ul li i {
+    margin-left: 5px;
+    background-color: transparent;
+    margin-top: 0;
+}
+.burger-menu {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px; 
+    background-color: #1259c3;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0px auto; 
+   
+}
+.burger-menu i {
+    font-size: 30px;
+    color: #ffff;
+}

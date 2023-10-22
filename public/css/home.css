@@ -1,0 +1,13 @@
+*{
+    font-family: 'roboto';
+    font-size: 12px;
+}
+.home main h3{
+    font-size: 24px;
+}
+.home main h5{
+    font-size: 18px;
+}
+.home main p,.home main h4{
+    font-size: 16px;
+}
