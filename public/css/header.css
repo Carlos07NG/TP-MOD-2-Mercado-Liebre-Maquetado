@@ -1,19 +1,19 @@
 .home header {
-    background-color: #eac926;
+    background-color: var(--colorAmarillo);
     margin: 0;
 }
 .home header img {
     width: 220px;
     padding: 25px 0 10px 35px;
 }
-.home header input {
-    margin-left: 25px;
-    width: 50%;
+.home header span {
+    display: flex;
+    width: 300px;
+    margin-left: 20px;
 }
 .home header i {
-    background-color: #ebebeb;
-    margin-left: 25px;
-    margin-top: 5px;
+    background-color: var(--colorGrisClaro);
+    margin-left: 5px;
     padding: 2px;
 } 
 .home nav li,a {
@@ -25,17 +25,17 @@
     text-align: center;
     margin: 10px;
 }
+.home header div {
+    text-align: center;
+    margin-top: 15px;
+}
 .home header div i,.home header div p{
     display: contents;
-    margin-right: 5px;
-    background-color: transparent;
-}
-.home div {
-    text-align: center;
 }
 
 .home header nav {
     padding: 10px 0;
+    display: none;
 }
 .home header nav ul li i {
     margin-left: 5px;
@@ -46,7 +46,7 @@
     width: 50px;
     height: 50px;
     border-radius: 10px; 
-    background-color: #1259c3;;
+    background-color: var(--colorCeleste);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,5 +56,25 @@
 }
 .burger-menu i {
     font-size: 30px;
-    color: #ffff;
+    color: var(--colorblanco);
+}
+/* tablet */
+@media (min-width:361px){
+    .home header nav {
+        display: flex;
+        margin-left: 5px;
+    }
+    .burger-menu{
+        display: none;
+    }
+}
+/* desktop */
+@media (min-width:769px){
+    .home header nav {
+        display: flex;
+        margin-left: 5px;
+    }
+    .burger-menu{
+        display: none;
+    }
 }
