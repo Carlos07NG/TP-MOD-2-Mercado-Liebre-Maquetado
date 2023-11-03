@@ -13,7 +13,7 @@
     width: 40%;
 }
 .busqueda {
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     justify-content: center;
-    margin: auto;
+    margin: 15px auto;
 }
 
 
@@ -81,7 +81,8 @@
     .busqueda input {
         margin-top: 20px;
         width: 200px;
-        height: 30%;
+        height: 16px;
+        border-radius: 1px;
     }
     .busqueda i {
         margin-top: 10px;
