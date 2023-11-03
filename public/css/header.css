@@ -1,45 +1,50 @@
 .home header {
     background-color: var(--colorAmarillo);
-    margin: 0;
-/* 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px 0; */
-    
+    margin: 0;  
 }
-.home header img {
-    width: 220px;
-    padding: 25px 0 10px 35px;
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    gap: 10px;
+}
+.logo img{
+    width: 40%;
 }
 .busqueda {
+    width: 50%;
     display: flex;
-    width: 300px;
-    margin-left: 20px;
+    flex-wrap: wrap;
+    justify-content: end;
 }
+.busqueda input {
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
 .busqueda i {
-    background-color: var(--colorGrisClaro);
-    margin-left: 5px;
+    background-color: var(--colorBlanco);
     padding: 2px;
-} 
-.home nav li,a {
+    color: var(--colorGrisOscuro);
+    position: absolute;
+    top: 30px;
+}
+.home__header--texto {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.home nav ul li, a {
     list-style: none;
     text-decoration: none;
     color:black;
 }
-.home header p {
-    text-align: center;
-    margin: 10px;
-}
-.home header div {
-    text-align: center;
-    margin-top: 15px;
-}
-.home header div i,.home header div p{
-    display: contents;
-}
-
 .home header nav {
     padding: 10px 0;
     display: none;
@@ -49,27 +54,10 @@
     background-color: transparent;
     margin-top: 0;
 }
-/* .burger-menu {
-    background-color: var(--colorCeleste);
-    padding: 10px;
-    border-radius: 7px;
-}
-.burger-menu i {
-    font-size: 2em;
-    color: var(--colorBlanco);
-} */
+
 
 .burger-menu {
-    /* width: 50px;
-    height: 50px;
-    border-radius: 10px; 
-    background-color: var(--colorCeleste); */
-    display: flex;
-    /* justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin: 0px auto;  */
-   
+    display: flex; 
 } 
 .burger-menu i {
     font-size: 2em;
@@ -82,17 +70,42 @@
 
 /* tablet */
 
-@media (min-width:361px){
-    .home header nav {
-        display: flex;
+@media (min-width:768px){
+    .logo img {
+        width: 20%;
+    }
+    .busqueda {
+        display: block;
+        width: 40%;
+    }
+    .busqueda input {
+        margin-top: 20px;
+        width: 200px;
+        height: 30%;
+    }
+    .busqueda i {
+        margin-top: 10px;
         margin-left: 5px;
     }
     .burger-menu{
         display: none;
     }
+    .home header nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .home header nav ul {
+        display: flex;
+        margin: 10px;
+    }
+    .home header nav ul li {
+        margin: inherit;
+    }
 }
 /* desktop */
-@media (min-width:769px){
+@media (min-width:1124px){
     .home header nav {
         display: flex;
         margin-left: 5px;
