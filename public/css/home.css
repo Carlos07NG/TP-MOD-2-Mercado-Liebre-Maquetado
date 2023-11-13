@@ -61,10 +61,15 @@
 
 .home__main__section div p {
     color: var(--colorVerde);
+    font-size: 18px;
 }
 
 /* tablet */
 @media (min-width:768px){
+    .home__main__titulo h3{
+        font-size: 24px;
+        margin:2% 0.1% 0% 4.5%;
+    }
     .home__main__section{
         display: flex;
         flex-wrap: wrap;
@@ -82,11 +87,15 @@
 }
 /* desktop */
 @media (min-width:1124px){
+    .home__main__titulo h3{
+        font-size: 24px;
+        margin:2% 0.1% 0% 4%;
+    }
     .home__main__section{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-top: 20px;
+        margin-top: 22px;
     }
     .home__main__section article {
         width: 20%;

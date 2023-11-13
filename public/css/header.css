@@ -75,19 +75,19 @@
         width: 20%;
     }
     .busqueda {
-        display: block;
+        display: flex;
         width: 40%;
     }
     .busqueda input {
-        margin-top: 20px;
-        width: 200px;
-        height: 16px;
-        border-radius: 1px;
+        /* margin-top: 20px;
+        width: 200px; */
+        height: 70%;
+        border-radius: 5px;
     }
-    .busqueda i {
+    /* .busqueda i {
         margin-top: 10px;
         margin-left: 5px;
-    }
+    } */
     .burger-menu{
         display: none;
     }
