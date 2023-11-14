@@ -9,7 +9,7 @@
     padding: 20px 20px;
     gap: 10px;
 }
-.logo img{
+.logo a {
     width: 40%;
 }
 .busqueda {
@@ -71,7 +71,7 @@
 /* tablet */
 
 @media (min-width:768px){
-    .logo img {
+    .logo a {
         width: 20%;
     }
     .busqueda {
