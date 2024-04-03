@@ -1,0 +1,19 @@
+.footer div{
+    text-align: center;
+    margin: 30px;
+    padding-top: 40px;
+}
+.footer i {
+    color: #1259c3;
+    font-size: 2em;
+}
+.footer h4 {
+    padding: 30px 0 20px;
+    text-align: left;
+    margin-left: 15px;
+}
+@media (min-width:768px){
+    .footer section{
+        display: flex;
+    }
+}

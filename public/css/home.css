@@ -1,0 +1,137 @@
+/* mobile */
+*{
+    font-family: var(--tipoGrafiaGeneral);
+    font-size: 12px;
+}
+.home{
+    width: 100%;
+}
+.home__main__titulo h3{
+    font-size: 24px;
+    margin:2% 0.1% 0% 4.5%;
+}
+.home main h5{
+    font-size: 18px;
+}
+.home main p,.home main h4{
+    font-size: 16px;
+}
+.home__main img {
+    width: 100%;
+}
+
+.home__main {
+    background-color: var(--colorGrisClaro);
+    /* width: 90%; */
+}
+.home__main__section {
+    padding: 20px;
+    width: 100%;
+}
+.home__main__section article {
+    background-color: var(--colorBlanco);
+    margin-bottom: 10px;
+}
+.home__main__section div {
+    border-top: 1px solid var(--colorGrisClaro);
+    align-items: flex-start;
+    height: 100px;
+}
+.home__main__section article div span {
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+.home__main__section article div h4{
+    margin: 20px;
+    height: 0;
+    overflow: hidden;
+    transition: all 3s;
+}
+.home__main__section div i {
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    left: 80%;
+    top: -20px;
+    transition: all 5s;
+} 
+/* .descripcion h4 {
+    transition: all 3s;
+} */
+.home__main__section:hover div i {
+    transform: rotate(-360deg);
+} 
+
+.home__main__section div p {
+    color: var(--colorVerde);
+    font-size: 18px;
+}
+
+/* tablet */
+@media (min-width:768px){
+    .home__main__titulo h3{
+        font-size: 24px;
+        margin:2% 0.1% 0% 4.5%;
+    }
+    .home__main__section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .home__main__section article {
+        width: 45%;
+        margin: 10px auto;
+        transition: all 2s;
+    }
+    /* .home__main__section:hover article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    } */
+}
+/* desktop */
+@media (min-width:1124px){
+    .home__main__titulo h3{
+        font-size: 24px;
+        margin:2% 0.1% 0% 4%;
+    }
+    .home__main__section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 22px;
+        align-items: flex-start;
+        
+    }
+    .home__main__section article {
+        width: 20%;
+        margin: 10px auto;
+        align-items: flex-start;
+    }
+    .home__main__section:hover article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    /* .descripcion:hover h4 {
+        display: block;
+        height: auto; 
+    }*/
+    .home__main__section article:hover h4{
+        display: block;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+

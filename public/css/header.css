@@ -1,0 +1,117 @@
+.home header {
+    background-color: var(--colorAmarillo);
+    margin: 0;  
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    gap: 10px;
+}
+.logo a {
+    width: 40%;
+}
+.busqueda {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.busqueda input {
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.busqueda i {
+    background-color: var(--colorBlanco);
+    padding: 2px;
+    color: var(--colorGrisOscuro);
+    position: absolute;
+    top: 30px;
+}
+.home__header--texto {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+
+.home nav ul li, a {
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+.home header nav {
+    padding: 10px 0;
+    display: none;
+}
+.home header nav ul li i {
+    margin-left: 5px;
+    background-color: transparent;
+    margin-top: 0;
+}
+
+
+.burger-menu {
+    display: flex; 
+} 
+.burger-menu i {
+    font-size: 2em;
+    color: var(--colorBlanco);
+    background-color: var(--colorCeleste);
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* tablet */
+
+@media (min-width:768px){
+    .logo a {
+        width: 20%;
+    }
+    .busqueda {
+        display: flex;
+        width: 40%;
+    }
+    .busqueda input {
+        /* margin-top: 20px;
+        width: 200px; */
+        height: 70%;
+        border-radius: 5px;
+    }
+    /* .busqueda i {
+        margin-top: 10px;
+        margin-left: 5px;
+    } */
+    .burger-menu{
+        display: none;
+    }
+    .home header nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .home header nav ul {
+        display: flex;
+        margin: 10px;
+    }
+    .home header nav ul li {
+        margin: inherit;
+    }
+}
+/* desktop */
+@media (min-width:1124px){
+    .home header nav {
+        display: flex;
+        margin-left: 5px;
+    }
+    .burger-menu{
+        display: none;
+    }
+}
